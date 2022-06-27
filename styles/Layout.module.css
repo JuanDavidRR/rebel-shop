@@ -1,0 +1,11 @@
+.container {
+    margin: 0px 8rem 50px;
+    padding-top: 100px;
+}
+
+@media (max-width:900px) {
+    .container {
+        margin: 0px 2rem;
+
+    }
+}

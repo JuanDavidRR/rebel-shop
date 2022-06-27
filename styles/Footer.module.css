@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 1px 1px 5px gray;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    background-color: rgb(14, 14, 14);
+    position: fixed;
+    bottom: 0;
+}
+
+.footer svg{
+   margin: 0 5px;
+}

@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+:root{
+  --light: #efefef;
+  --blue: rgb(0, 136, 255);
+  --dark: rgb(60, 60, 60);
+  --blueHover:rgb(0, 109, 205);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--light);
+  font-family: 'Raleway', Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +23,19 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-size: 62px;
+  margin: 20px 0 0;
+}
+
+hr{
+  margin: 10px 0px 50px;
+}
+
+button{
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }

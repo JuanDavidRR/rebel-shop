@@ -1,0 +1,25 @@
+.button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--blue);
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.button svg{
+    margin-bottom: -2px;
+}
+
+.button:hover{
+    background-color: var(--blueHover);
+}
+
+.button:hover svg{
+    transform: rotate(360deg);
+    transition: 0.4s;
+}

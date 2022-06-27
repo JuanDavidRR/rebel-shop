@@ -1,5 +1,43 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
+}
+
+.titleSection{
+  margin-top: 50px;
+}
+
+
+.banner2{
+  border-color: black;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://images.pexels.com/photos/1974927/pexels-photo-1974927.jpeg');
+  box-sizing: border-box;
+  margin: 50px 0PX;
+}
+
+.banner{
+  border-color: black;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://images.pexels.com/photos/452738/pexels-photo-452738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  box-sizing: border-box;
+  margin-bottom:  50PX;
+}
+
+.banner h2{
+  font-size: 2.5rem;
+}
+
+.bannerInfo{
+  padding: 50px;
+  color: white;
+}
+.bannerBackground{
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 300px;
+
+
 }
 
 .main {
@@ -107,6 +145,7 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
 
 @media (max-width: 600px) {
   .grid {
